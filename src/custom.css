@@ -1,0 +1,8 @@
+#Home {
+    border-bottom: 1px solid gray;
+    border: hidden;
+}
+
+#Home:hover {
+    border: blue;
+}
