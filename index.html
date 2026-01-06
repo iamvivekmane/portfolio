@@ -12,7 +12,7 @@
 
 <body>
 
-  <div class="first  w-full flex px-25 h-15 border-b border-gray-300  font-bold" id="Home">
+  <div class="first  w-full flex px-25 h-15 border-b border-gray-300  font-bold max-sm:bg-amber-500" id="Home">
     <div class="name w-1/2  items-center flex text-4xl"><a href="index.html">Vivek</a></div>
 
     <div class="nav w-1/2  flex items-center">
@@ -26,8 +26,8 @@
     </div>
   </div>
 
-  <div class="second flex px-25 ">
-    <div class="info w-1/2 pt-30">
+  <div class="second flex px-25 max-lg:flex-col">
+    <div class="info w-1/2 pt-30 max-lg:w-full">
       <div class="text text-7xl font-bold space-y-5">
         <p>Hi,</p>
         <p>I'am <span class="text-[#8EA0B1]">Vivek</span></p>
@@ -39,10 +39,11 @@
       </div>
 
     </div>
-    <div class="img w-1/2 pt-10 max-w-full h-auto"> <img src="images/image1.png" alt=""></div>
+    <div class="img w-1/2 pt-20  b-black max-lg:w-full max-lg:flex max-lg:items-center max-lg:justify-center"> <img
+        class="w-full min-w-[60%] h-auto" src="images/image1.png" alt=""></div>
   </div>
 
-  <div class="third w-full px-25  h-35 ">
+  <div class="third w-full px-25  h-35">
     <div class="logos  flex gap-7 pt-20  w-full">
       <a href="https://github.com/iamvivekmane"><img class="w-7" src="logo/github.svg" alt=""></a>
       <a href="https://www.linkedin.com/in/vivek-mane-9b36552a1/"><img class="w-7" src="logo/linkedin.svg" alt=""></a>
@@ -54,8 +55,8 @@
 
     <div class="about flex items-center justify-center"><span class="text-4xl font-bold">About</span></div>
 
-    <div class="card flex  h-120 mt-10">
-      <div class="img w-1/2 h-full  flex items-center justify-center"> <img class=" h-full rounded-xl"
+    <div class="card flex h-120 mt-10 bg-red-500">
+      <div class="img w-1/2 h-full  flex items-center justify-center bg-black"> <img class=" h-full rounded-sm min-h-[60%] w-auto"
           src="images/image2.png" alt=""></div>
 
       <div class="info w-1/2 h-full   flex flex-col  justify-center gap-5">
@@ -73,13 +74,13 @@
       </div>
     </div>
   </div>
-  <div class="fifth h-150 px-25 " id="Skills">
+  <div class="fifth h-150 px-25 max-lg:h-170" id="Skills">
     <div class="skills flex items-center justify-center"><span class="text-4xl font-bold"><span>Skills</span></div>
 
 
-    <div class="card bg-amer-300 h-120 flex mt-10">
+    <div class="card bg-amer-300 h-120 flex max-lg:flex-col mt-10 ">
 
-      <div class="description w-1/2 flex flex-col bg-rd-400 ">
+      <div class="description w-1/2 flex flex-col bg-rd-400  max-lg:w-full">
 
         <div class="overview flex flex-col gap-5">
           <span class="text-2xl font-bold">Professional skills</span>
@@ -176,19 +177,26 @@
           </div>
         </div>
       </div>
-      <div class="img w-1/2 flex bg-amber700 pt-20 items-center justify-center ">
+      <div class="img w-1/2 flex bg-amber700 pt-10 items-center justify-center max-lg:hidden">
         <img class="h-fit w-auto" src="images/work5.jpg" alt="">
       </div>
     </div>
   </div>
 
-  <div class="sixth h-150 px-25" id="Work">
+  <div class="sixth h-150 px-25 max-lg:h-340" id="Work">
     <div class="work flex items-center justify-center"><span class="text-4xl font-bold"><span>Work</span></div>
 
-    <div class="images flex mt-10 h-full gap-4">
-      <div class="firstImage w-1/3 "><img class="rounded-xl" src="images/work1.png" alt=""> </div>
-      <div class="secongImage w-1/3"><img class="rounded-xl" src="images/work2.png" alt=""></div>
-      <div class="thirdImage w-1/3"> <img class="rounded-xl" src="images/work3.png" alt=""></div>
+    <div class="images flex mt-10 h-full gap-4 max-lg:flex-col max-lg:items-center">
+      <div class="firstImage w-1/3 max-lg:w-full"><a href="https://hotelguruprasad.vercel.app"><img class="rounded-xl"
+            src="images/work1.png" alt=""></a> </div>
+
+
+      <div class="secongImage w-1/3 max-lg:w-full"> <a href="https://netflix-clone-gilt-eta-61.vercel.app/"> <img
+            class="rounded-xl" src="images/work2.png" alt=""></a></div>
+
+
+      <div class="thirdImage w-1/3 max-lg:w-full"><a href="https://github.com/iamvivekmane"> <img class="rounded-xl"
+            src="images/work3.png" alt=""></a></div>
     </div>
   </div>
 
